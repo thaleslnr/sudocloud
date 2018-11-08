@@ -6,4 +6,3 @@ files:
 hooks:
   AfterInstall:
     - location: scripts/baixarbucket.sh
-      runas: root
