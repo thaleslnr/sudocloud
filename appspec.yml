@@ -3,7 +3,6 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/
- hooks:
+hooks:
   AfterInstall:
-    - location: .scripts/meuprimeiroscript.sh
-      runas: root
+    - location: scripts/meuprimeiroscript.sh
