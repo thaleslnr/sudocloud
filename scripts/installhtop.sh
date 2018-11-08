@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo yum update
-sudo yum install htop
+yum update
+yum install htop
